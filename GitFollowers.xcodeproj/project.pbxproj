@@ -11,10 +11,10 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		27E2BBCD2CFEC86E005D6616 /* Exceptions for "GitFollowers" folder in "GitFollowers" target */ = {
+		27E2BBF42CFF12D3005D6616 /* Exceptions for "GitFollowers" folder in "GitFollowers" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				Support/Info.plist,
 			);
 			target = 27E2BBBA2CFEC86B005D6616 /* GitFollowers */;
 		};
@@ -24,7 +24,7 @@
 		27E2BBBD2CFEC86B005D6616 /* GitFollowers */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				27E2BBCD2CFEC86E005D6616 /* Exceptions for "GitFollowers" folder in "GitFollowers" target */,
+				27E2BBF42CFF12D3005D6616 /* Exceptions for "GitFollowers" folder in "GitFollowers" target */,
 			);
 			path = GitFollowers;
 			sourceTree = "<group>";
@@ -147,12 +147,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3P8C3CAD7N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GitFollowers/Info.plist;
+				INFOPLIST_FILE = GitFollowers/Support/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -175,12 +174,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3P8C3CAD7N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GitFollowers/Info.plist;
+				INFOPLIST_FILE = GitFollowers/Support/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
